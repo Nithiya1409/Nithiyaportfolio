@@ -226,51 +226,6 @@ header {
 
     transform: translateY(-3px);
 }
-
-
-/* =========================================
-   HOME IMAGE
-========================================= */
-
-.home-image-section {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 6% 90px;
-}
-
-.home-image-box {
-    width: 100%;
-    overflow: hidden;
-
-    border: 1px solid #9d4edd;
-    border-radius: 18px;
-
-    background: #100014;
-
-    box-shadow:
-        0 0 15px rgba(157, 78, 221, 0.25);
-
-    transition: 0.4s ease;
-}
-
-.home-image-box:hover {
-    border-color: #c77dff;
-
-    box-shadow:
-        0 0 15px #9d4edd,
-        0 0 35px rgba(199, 125, 255, 0.35);
-
-    transform: translateY(-4px);
-}
-
-.home-image-box img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-
 /* =========================================
    PROFILE
 ========================================= */
